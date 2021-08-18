@@ -5,25 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro HTML</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Sobre mim</h1>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex blanditiis culpa ullam. Ducimus quaerat quidem tenetur at, eius voluptatibus iste modi, totam reiciendis laboriosam ratione nulla temporibus corrupti nihil? Laudantium!
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla facere itaque omnis rerum voluptatibus nemo vitae, deleniti, modi aperiam optio dolor eum officiis vero quis voluptate consectetur ut? Reiciendis, quia.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur ipsum, pariatur odit quas voluptates obcaecati non. Officiis eveniet veritatis numquam exercitationem mollitia. Fugit, consequuntur earum. Qui animi a ullam?
-    </p>
+    <h1 class="center">Sobre mim</h1>
 
-    <img src="assets/img/nubia-smile.jpeg" alt="Nubia">
+    <div class="container">
+    <div>
+        <img class="avatar" src="assets/img/nubia-smile.jpeg" alt="Nubia">
+    </div>
+    <div class="text">
+        <p class="justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex blanditiis culpa ullam. Ducimus quaerat quidem tenetur at, eius voluptatibus iste modi, totam reiciendis laboriosam ratione nulla temporibus corrupti nihil? Laudantium!
+        </p>
+        <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla facere itaque omnis rerum voluptatibus nemo vitae, deleniti, modi aperiam optio dolor eum officiis vero quis voluptate consectetur ut? Reiciendis, quia.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur ipsum, pariatur odit quas voluptates obcaecati non. Officiis eveniet veritatis numquam exercitationem mollitia. Fugit, consequuntur earum. Qui animi a ullam?
+        </p>
+    </div>
+    </div>
 
-    <h2>Meu drink favorito</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MFs4hA2DriU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2 class="center">Meu drink favorito</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MFs4hA2DriU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer class="center">
+        <div class="container">
+            <a href="https://github.com/nubiaferr"><img class="tam" src="assets/img/icons/github-8-64.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/nubia-ferreira/"><img class="tam" src="assets/img/icons/linkedin-3-64.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/nubiaferr/"><img class="tam" src="assets/img/icons/instagram-6-64.png" alt="instagram"></a>
+        </div>
+        Nubia Ferr &copy;
+    </footer>
     
 </body>
 </html>
